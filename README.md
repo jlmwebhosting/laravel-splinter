@@ -6,6 +6,7 @@ Split testing for Laravel, made ridiculously easy.
 The easiest way to get Splinter is using Laravel's artisan CLI:
 
 	php artisan bundle:install splinter
+	php artisan migrate splinter
 
 By default, Splinter uses a sqlite database to store its data. If you need to use another database, define it in `bundles/splinter/config/database.php`.
 
