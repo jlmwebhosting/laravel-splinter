@@ -1,0 +1,150 @@
+
+/* Splinter bundle styles
+-------------------------------------------------- */
+
+body {
+	padding-bottom: 40px;
+	color: #5a5a5a;
+}
+
+
+/* Nav Bar
+-------------------------------------------------- */
+.navbar-wrapper {
+	position: relative;
+	z-index: 10;
+	margin-top: 20px;
+}
+.navbar .navbar-inner {
+	border: 0;
+	opacity: 0.8;
+	-webkit-box-shadow: 0 2px 10px rgba(255,255,255,0.25);
+	   -moz-box-shadow: 0 2px 10px rgba(255,255,255,0.25);
+	        box-shadow: 0 2px 10px rgba(255,255,255,0.25);
+}	
+.navbar .brand {
+	position: relative;
+	padding: 10px 20px 10px 50px;
+	font-size: 20px;
+	text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+}
+.navbar .brand img {
+	position: absolute;
+	top: 5px;
+	left: 15px;
+}
+.navbar .nav > li > a {
+	padding: 15px 20px;
+}
+.navbar .btn-navbar {
+	margin-top: 10px;
+}
+.navbar .slogan {
+	float: left;
+	margin-top: 10px;
+}
+
+
+hgroup {
+	width: 100%;
+	overflow: hidden;
+	border-bottom: 1px solid #ccc;
+}
+hgroup h2,
+hgroup h3,
+hgroup h4 {
+	display: inline;
+	float: left;
+}
+hgroup .btn {
+	float: right;
+	margin-top: 12px;
+}
+
+ul.fancy {
+	margin: 0 0 24px 0;
+	padding: 0;
+}
+ul.fancy li {
+	list-style: none;
+	margin: none;
+}
+ul.fancy li a {
+	display: block;
+	padding: 8px 12px;
+}
+ul.fancy li:hover a {
+	text-decoration: none;
+	background-color: #eee;
+}
+ul.fancy li.active a {
+	background-color: #0088cc;
+	color: #f0f0f0;
+}
+
+
+dl.stats {
+	margin: 0 0 8px;
+}
+dl.stats .term {
+	float: left;
+	margin-right: 44px;
+	text-align: right;
+}
+dl.stats dt {
+	font-weight: 300;
+	font-size: 18px;
+	margin: 0;
+}
+dl.stats dd {
+	font-weight: bold;
+	font-size: 32px;
+	color: #777;
+	margin: 4px 0 0;
+	text-shadow: 0 -1px 0 #fff;
+}
+
+
+
+.help-inline {
+	font-style: italic;
+}
+.modal > form {
+	margin: 0;
+}
+.modal-body .alert {
+	display: none;
+}
+
+footer {
+	margin-top: 40px;
+	opacity: 0.5;
+}
+footer:hover {
+	opacity: 1.0;
+}
+
+
+
+/* Responsive rules
+-------------------------------------------------- */
+
+@media (max-width: 979px) {
+
+	.container.navbar-wrapper {
+		margin-bottom: 0;
+		width: auto;
+	}
+	.navbar-inner {
+		border-radius: 0;
+		margin: -20px 0;
+	}
+}
+
+
+@media (max-width: 767px) {
+
+	.navbar-inner {
+		margin: -20px;
+	}
+}
